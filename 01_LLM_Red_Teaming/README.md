@@ -35,20 +35,34 @@ Multi-model compatibility (OpenAI, Anthropic, HF models)
 📂 Project Structure
 
 01_LLM_Red_Teaming/
+
 │
+
 ├── attacks/
+
 │   ├── jailbreaks.md
+
 │   ├── prompt_injection.md
+
 │   ├── safety_bypass.md
+
 │
+
 ├── eval/
+
 │   ├── redteam_runner.py
+
 │   ├── log_utils.py
+
 │
 ├── reports/
+
 │   ├── llm_redteam_report.md
+
 │
+
 └── README.md
+
 
 📜 Deliverables
 
