@@ -40,28 +40,29 @@ Multi-model compatibility (OpenAI, Anthropic, HF models)
 
   ├── attacks/
 
-    │   ├── jailbreaks.md
+│     ├── jailbreaks.md
 
-    │   ├── prompt_injection.md
+│     ├── prompt_injection.md
 
-    │   ├── safety_bypass.md
+│     ├── safety_bypass.md
+
+│
+
+   ├── eval/
+
+│     ├── redteam_runner.py
+
+│     ├── log_utils.py
 
 │
 
-  ├── eval/
-
-    │   ├── redteam_runner.py
-
-    │   ├── log_utils.py
-
-│
   ├── reports/
 
-    │   ├── llm_redteam_report.md
+│     ├── llm_redteam_report.md
 
 │
 
-    └── README.md
+  └── README.md
 
 
 📜 Deliverables
