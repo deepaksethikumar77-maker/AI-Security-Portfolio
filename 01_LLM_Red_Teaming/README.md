@@ -1,23 +1,39 @@
 LLM Adversarial Evaluation Framework
+
 📌 Objective
+
 Build an end-to-end LLM Red Teaming framework that tests LLMs for:
+
 Jailbreak vulnerabilities
+
 Prompt injection
+
 System prompt attacks
+
 Safety bypasses
+
 Policy violations
+
 Behavioral inconsistencies
+
 This project simulates real red-team evaluations similar to what OpenAI, Anthropic, Google DeepMind, and safety labs conduct.
 
 🔧 Features
+
 Modular Python-based attack runner
+
 Attack library (jailbreaks, injections, safety bypasses)
+
 Automated evaluation loop
+
 Logging + categorization
+
 PDF-style final red teaming report
+
 Multi-model compatibility (OpenAI, Anthropic, HF models)
 
 📂 Project Structure
+
 01_LLM_Red_Teaming/
 │
 ├── attacks/
@@ -37,10 +53,15 @@ Multi-model compatibility (OpenAI, Anthropic, HF models)
 📜 Deliverables
 
 ✔ A working Python attack framework
+
 ✔ 30+ adversarial prompts categorized
+
 ✔ Evaluation logs
+
 ✔ A real PDF/MD report summarizing vulnerabilities
+
 ✔ Scorecard of model weaknesses
+
 ✔ Risks mapped to:
 
 NIST AI RMF
